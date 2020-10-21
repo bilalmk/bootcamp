@@ -42,4 +42,4 @@ jobs:
       
       - name: upload build on surge
         run: surge ./build http://bilal-session2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
-        working-directory: /session2-react
+        working-directory: session2-react
