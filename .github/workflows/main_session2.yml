@@ -28,7 +28,7 @@ jobs:
       - name: install yarn
         uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: install --cwd ../../session2-react/
+          cmd: install --cwd ~/session2-react
           
       - name: build project using yarn
         uses: borales/actions-yarn@v2.3.0
