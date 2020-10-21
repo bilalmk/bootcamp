@@ -7,7 +7,7 @@ name: CI to publish react project
 on:
   push:
     branches: [ session2-react ]
-    paths: [ session2-react ]
+    paths: session2-react/**
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
