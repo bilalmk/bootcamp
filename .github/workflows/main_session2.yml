@@ -35,7 +35,7 @@ jobs:
         uses: borales/actions-yarn@v2.3.0
         with:
           #cmd: build
-          cmd: --cwd ../../session2-react build
+          cmd: --cwd ../session2-react build
           
       - name: install surge
         run: npm install -g surge
