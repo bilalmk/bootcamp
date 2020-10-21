@@ -28,14 +28,14 @@ jobs:
       - name: install yarn
         uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: install
+          cmd: install /session2-react
           #cmd: --cwd ../../session2-react install
           
       - name: build project using yarn
         uses: borales/actions-yarn@v2.3.0
         with:
-          #cmd: build
-          cmd: --cwd ../session2-react build
+          cmd: build /session2-react
+          #cmd: --cwd ../session2-react build
           
       - name: install surge
         run: npm install -g surge
