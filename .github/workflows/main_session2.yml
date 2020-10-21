@@ -39,7 +39,6 @@ jobs:
           
       - name: install surge
         run: npm install -g surge
-        working-directory: /session2-react
       
       - name: upload build on surge
         run: surge ./build http://bilal-session2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
