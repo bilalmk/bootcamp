@@ -33,7 +33,7 @@ jobs:
           cmd: --cwd session3-react install
                
       - name: build project
-        uses: borales@actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v2.3.0
         with:
           cmd: --cwd session3-react build
         
