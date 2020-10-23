@@ -3,6 +3,6 @@ import React from 'react';
 export function Message(props)
 {
     return(
-        <h1>The counter value is {props.counter}</h1>
+        <h1>The counter value is : {props.counter}</h1>
     )
 }
