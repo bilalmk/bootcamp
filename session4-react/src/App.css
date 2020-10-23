@@ -28,8 +28,28 @@
   color: #61dafb;
 }
 
-div{
-  background-color: darkgrey;
+.night{
+  background-color: #282c34;
+  color:white;
+}
+
+input[type=button]{
+  background-color: #2635c7;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 16px;
+    border-radius: 25px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.day{
+  background-color:yellow;
 }
 
 @keyframes App-logo-spin {
